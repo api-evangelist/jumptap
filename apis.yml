@@ -1,7 +1,23 @@
 aid: jumptap
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumptap.png
 name: Jumptap
-description: Jumptap is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Jumptap was a mobile advertising and audience-targeting platform founded in 2005 and based
+  in Cambridge, Massachusetts. It matched ads to signals such as time of day, carrier network, site content,
+  and device type, helping app developers acquire users and helping developers and publishers maximize ad
+  revenue. In August 2013 Jumptap was acquired by Millennial Media (valued at roughly $210-232M in stock);
+  Millennial Media was subsequently acquired by AOL/Verizon and folded into what is now Yahoo. Jumptap no
+  longer operates as an independent entity and publishes no developer portal, documentation, or public API.
 url: https://raw.githubusercontent.com/api-evangelist/jumptap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,29 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: Acquired by Millennial Media (2013); now part of Yahoo/Verizon. jumptap.com returns HTTP
+  404 and serves a Yahoo (src1.yahoo.com) certificate. No independent developer or API surface exists.
+x-acquired-by: millennial-media
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobile
+- Advertising
+- AdTech
+- Audience Targeting
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
