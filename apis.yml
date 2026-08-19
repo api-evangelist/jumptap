@@ -29,7 +29,7 @@ x-status: defunct
 x-status-reason: Acquired by Millennial Media (2013); now part of Yahoo/Verizon. jumptap.com returns HTTP
   404 and serves a Yahoo (src1.yahoo.com) certificate. No independent developer or API surface exists.
 x-acquired-by: millennial-media
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
